@@ -72,6 +72,18 @@ main {
   border-top-style: solid;
 }
 
+.features > .feature-card > h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.375rem;
+  color: var(--color-grey500);
+}
+
+.features > .feature-card > .description {
+  color: var(--color-grey400);
+  font-size: 0.8125rem;
+  line-height: 160%;
+}
+
 .features > .feature-card > img {
   display: block;
   margin-left: auto;
