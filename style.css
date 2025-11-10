@@ -1,0 +1,94 @@
+:root {
+  --color-grey500: rgb(77, 79, 98);
+  --color-grey400: rgb(106, 113, 120);
+  --color-white: rgb(255, 255, 255);
+  --color-red: rgb(234, 84, 84);
+  --color-cyan: rgb(68, 211, 210);
+  --color-blue: rgb(84, 158, 242);
+  --color-orange: rgb(252, 174, 74);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.introduction {
+  max-width: 19.75rem;
+  text-align: center;
+  margin-bottom: 3.75rem;
+}
+
+.introduction > .super-title {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--color-grey500);
+  line-height: 140%;
+  letter-spacing: 0.015625rem;
+}
+
+.introduction > h1 {
+  font-size: 1.5rem;
+  color: var(--color-grey500);
+  line-height: 140%;
+  letter-spacing: 0.015625rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.introduction > p:last-child {
+  font-size: 0.9375rem;
+  color: var(--color-grey500);
+  line-height: 140%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 19.625rem;
+}
+
+.features > .feature-card {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
+  border-top-width: 4px;
+  border-top-style: solid;
+}
+
+.features > .feature-card > img {
+  display: block;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+
+.features > .feature-card:nth-child(1) {
+  border-top-color: var(--color-cyan);
+}
+
+.features > .feature-card:nth-child(2) {
+  border-top-color: var(--color-red);
+}
+.features > .feature-card:nth-child(3) {
+  border-top-color: var(--color-orange);
+}
+
+.features > .feature-card:nth-child(4) {
+  border-top-color: var(--color-blue);
+}
