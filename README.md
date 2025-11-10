@@ -6,22 +6,31 @@ Essa é uma solução para o desafio [Four card feature section](https://www.fro
 
 ### Versões do projeto
 - Desktop
-![](C:\imagens-Desafios-concluidos\four-card-section/desktop.png)
+<img src="./four-card-section/desktop.png" width="800">
   
 - Tablet
-![](C:\imagens-Desafios-concluidos\four-card-section/tablet1.png)
-![](C:\imagens-Desafios-concluidos\four-card-section/tablet2.png)
+<img src="./four-card-section/tablet1.png" width="800">
+
+<img src="./four-card-section/table2.png" width="800">
 
 - Mobile
-![](C:\imagens-Desafios-concluidos\four-card-section/mobile1.png)
-![](C:\imagens-Desafios-concluidos\four-card-section/mobile2.png)
+<img src="./four-card-section/mobile1.png" width="800">
+
+<img src="./four-card-section/mobile2.png" width="800">
 
 ##
 ### Links
 - Repositório: [solução](https://github.com/jose-wolf/four-card-feature-section)
 - Site URL: [site do desafio](https://fourcardfeaturesectionproject.netlify.app/)
 
+### O que eu aprendi?
+- Css grid
+- Responsividade.
+- Controle de tamanho e alinhamento.
+
+O objetivo é utilizar cada vez mais o css grid, para que possa aprende-lo melhor.
+
 ## Author
 
-- LinkedIn - [José Wolf](www.linkedin.com/in/jose-wolf)
+- LinkedIn - [José Wolf](https://www.linkedin.com/in/jose-wolf)
 - Frontend Mentor - [@jose-wolf](https://www.frontendmentor.io/profile/jose-wolf)
