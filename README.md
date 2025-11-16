@@ -2,8 +2,6 @@
 
 Essa é uma solução para o desafio [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Os desafios do Frontend Mentor nos ajuda a melhorar a nossa habilidade com o desenvolvimento front-end.
 
-## Conteúdos
-
 ### Versões do projeto
 - Desktop
 <img src="./four-card-section/desktop.png" width="800">
